@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanous - La Boîte à Histoires Bilingue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5e6;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc66;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 3em;
+        }
+        .cta {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff9933;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta:hover {
+            background-color: #cc7a00;
+        }
+        .features, .shop, .blog {
+            text-align: center;
+        }
+        .features h2, .shop h2, .blog h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .features div, .shop div, .blog div {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #ffcc66;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fanous</h1>
+        <nav>
+            <a href="#features">Fonctionnalités</a>
+            <a href="#shop">Boutique</a>
+            <a href="#stories">Histoires</a>
+            <a href="#about">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Découvrez la Magie des Contes avec Fanous</h2>
+        <p>Une boîte à histoires bilingue qui éveille l'imagination et préserve le patrimoine culturel.</p>
+        <button class="cta">Achetez maintenant</button>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Pourquoi choisir Fanous ?</h2>
+        <div>
+            <h3>Bilinguisme</h3>
+            <p>Histoires en arabe et français pour enrichir l'apprentissage des langues.</p>
+        </div>
+        <div>
+            <h3>Contes culturels</h3>
+            <p>Un catalogue riche basé sur les Mille et Une Nuits et des récits locaux.</p>
+        </div>
+        <div>
+            <h3>Éducatif et amusant</h3>
+            <p>Un design interactif avec des jetons NFC pour une expérience ludique.</p>
+        </div>
+    </section>
+
+    <section id="shop" class="shop">
+        <h2>Boutique</h2>
+        <div>
+            <h3>Boîte Fanous</h3>
+            <p>La boîte à histoires interactive et bilingue.</p>
+            <button class="cta">Achetez maintenant</button>
+        </div>
+        <div>
+            <h3>Jetons NFC</h3>
+            <p>Des packs thématiques pour découvrir toujours plus d'histoires.</p>
+            <button class="cta">Voir les packs</button>
+        </div>
+    </section>
+
+    <section id="stories" class="blog">
+        <h2>Histoires en vedette</h2>
+        <div>
+            <h3>Les Mille et Une Nuits</h3>
+            <p>Découvrez les aventures d'Ali Baba, Sindbad et bien d'autres.</p>
+        </div>
+        <div>
+            <h3>Les contes de Juha</h3>
+            <p>Riez et apprenez avec les célèbres histoires humoristiques de Juha.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fanous. Tous droits réservés.</p>
+        <p><a href="#">Politique de confidentialité</a> | <a href="#">Conditions d'utilisation</a></p>
+    </footer>
+</body>
+</html>
